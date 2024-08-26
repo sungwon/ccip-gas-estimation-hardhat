@@ -1,3 +1,24 @@
+## CCIP Bootcamp Aug 2004 Day 3 Homework
+
+I started the homeworks this last week, so unfortunately the discord invite had expired and wasn't able to ask for help there.
+
+I found this homework assignment unclear.
+
+# Approach 1
+Upon initial reading it seemed like the assignment was to follow the https://docs.chain.link/ccip/tutorials/ccipreceive-gaslimit guide for generic estimation of the `ccipReceive` function, i.e., using the 10% buffered value of the peak gas consumption: 26485. And then inputting this value as the gas limit when executing the transferUsdc function. But then why is the submission a github repo?
+
+# Approach 2
+So then I thought the assignment must be to follow the instructions in the https://docs.chain.link/ccip/tutorials/ccipreceive-gaslimit#estimate-gas-usage-on-your-local-environment section to estimate the gas for executing the transferUsdc function against the `ccipReceive` function. But this didn't make much sense since the original contract was made to send USDC to an EOA. 
+
+# Approach 3
+So perhaps the assignment was to implement a new contract to send USDC to a contract address, like in https://cll-devrel.gitbook.io/ccip-masterclass-4/ccip-masterclass/exercise-2-deposit-transferred-usdc-to-compound-v3 but the link to this only linked to step 7, so that didn't seem right. 
+
+I ended up taking Approach 2, but am running out of time now and wasn't able to complete this assignment. I present my experience here not as a complaint but as feedback. 
+
+Thank you for offering this bootcamp, it was indeed an accelerated learning process! I'll be back for the next one (and starting the homework earlier!).
+
+
+
 ## CCIP Starter Kit
 
 > **Note**
