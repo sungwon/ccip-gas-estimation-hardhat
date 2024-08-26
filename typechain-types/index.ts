@@ -96,5 +96,9 @@ export type { SourceMinter } from "./contracts/cross-chain-nft-minter/SourceMint
 export { SourceMinter__factory } from "./factories/contracts/cross-chain-nft-minter/SourceMinter__factory";
 export type { ProgrammableTokenTransfers } from "./contracts/ProgrammableTokenTransfers";
 export { ProgrammableTokenTransfers__factory } from "./factories/contracts/ProgrammableTokenTransfers__factory";
+export type { MockUSDC } from "./contracts/test/MockUSDC";
+export { MockUSDC__factory } from "./factories/contracts/test/MockUSDC__factory";
+export type { TransferUSDC } from "./contracts/TransferUSDC";
+export { TransferUSDC__factory } from "./factories/contracts/TransferUSDC__factory";
 export type { Withdraw } from "./contracts/utils/Withdraw";
 export { Withdraw__factory } from "./factories/contracts/utils/Withdraw__factory";
